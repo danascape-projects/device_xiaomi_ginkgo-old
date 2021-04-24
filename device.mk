@@ -303,10 +303,6 @@ PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
 
-# Parts
-PRODUCT_PACKAGES += \
-    XiaomiParts
-
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti
